@@ -1,0 +1,88 @@
+#aboutNweb {
+    width: 90%;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: #003066;
+    margin-top: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+hr {
+    color: #009bb3;
+    width: 160px;
+    border: 2px solid #009bb3;
+    border-radius: 2px;
+    padding-top: -10px;
+    margin-top: 5px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 2.5s;
+    /* animation-iteration-count: infinite; */
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes example {
+    from {width: 10px;}
+    to {width: 160;}
+}
+
+#aboutNweb p {
+    text-align: center;
+}
+
+/* Clients */
+#clients {
+    min-height: auto;
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #f2f2f2;
+    padding: 10px 0px;
+}
+
+#seperator {
+    width: 100%;
+    color: red;
+    border: 2px dashed rgb(163, 104, 104);
+    animation-name: none;
+}
+
+#clients h2 {
+    text-align: center;
+    color: #003066;
+    margin-top: 20px;
+}
+
+#clients .card {
+    border-radius: 0px !important;
+    border: 1px solid #ffffff !important;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+}
+
+#local .card-img {
+    width: 100%;
+    height: 150px;
+    border: none;
+}
+
+#show {
+    border: #053e74;
+    background-color: #053e74;
+    padding: 10px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ffffff;
+}
+
+
+/* footer */
+#about-footer {
+    margin-top: 0px !important;
+}

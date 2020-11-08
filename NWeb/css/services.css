@@ -1,0 +1,100 @@
+/* navbar */
+#navbar {
+    background-image: url(../img/monitor.jpg);
+    height: 400px;
+}
+
+.navbar-dark {
+    background-color: rgba(0,0,0,0.04);
+}
+
+#navbar .nav-link {
+    font-weight: bolder !important;
+    font-size: 13px !important;
+}
+
+
+
+/* services */
+h1 {
+    text-align: center;
+    color: #003066;
+    margin-top: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+hr {
+    color: #009bb3;
+    width: 160px;
+    border: 2px solid #009bb3;
+    border-radius: 2px;
+    padding-top: -10px;
+    margin-top: 5px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 2.5s;
+    /* animation-iteration-count: infinite; */
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes example {
+    from {width: 10px;}
+    to {width: 160;}
+}
+
+#services p {
+    text-align: center;
+}
+
+/* Deeds */
+#deeds {
+    background-image: url(https://i.pinimg.com/originals/1b/8a/da/1b8ada8874a97b20cfc515dcd056e0a3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    padding-top: 16px;
+}
+
+#deeds h3 {
+    font-size: 29px;
+    text-align: center;
+    padding-top: 12px;
+    color: #001c3b;
+}
+
+#deeds #row {
+    width: 90%;
+    margin: auto;
+    margin-top: 26px;
+}
+
+#deeds h6 {
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #0719c0;
+    opacity: 1 !important;
+}
+
+#deeds i {
+    padding-right: 9px;
+    color: #1ea7a7;
+}
+
+
+
+/* footer */
+#footer {
+    margin-top: 0px !important;
+    background-color: rgba(24, 106, 212, 0.01);
+}
+
+#footer p {
+    color: #001c3b;
+}
+
+#footer i {
+    color: #001c3b;
+}
